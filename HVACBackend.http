@@ -1,0 +1,6 @@
+@HVACBackend_HostAddress = http://localhost:5125
+
+GET {{HVACBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
