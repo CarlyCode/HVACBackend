@@ -11,17 +11,9 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\**" />
-    <Compile Remove="DAL\**" />
-    <Compile Remove="Helper\**" />
     <Content Remove="Controllers\**" />
-    <Content Remove="DAL\**" />
-    <Content Remove="Helper\**" />
     <EmbeddedResource Remove="Controllers\**" />
-    <EmbeddedResource Remove="DAL\**" />
-    <EmbeddedResource Remove="Helper\**" />
     <None Remove="Controllers\**" />
-    <None Remove="DAL\**" />
-    <None Remove="Helper\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,7 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <Folder Include="Controller\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Helper\" />
   </ItemGroup>
 
 </Project>
