@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="AnalyticsService/AnalyticsService.csproj" Id="fd8f304d-3d49-4dc5-9106-ca235e2602c3" />
   <Project Path="AuthenticationService/AuthenticationService.csproj" Id="40bb6076-e541-4af8-8d31-29536fb57a87" />
+  <Project Path="CommonLibrary/CommonLibrary.csproj" Id="bcffce72-6885-4bbc-9201-555df8b5d375" />
+  <Project Path="ContractLibrary/ContractLibrary.csproj" Id="a114d023-d754-4092-b10d-771307568792" />
   <Project Path="docker-compose.dcproj">
     <Build />
   </Project>
