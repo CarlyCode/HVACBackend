@@ -1,4 +1,1 @@
-<Solution>
-  <Project Path="../AnalyticsService/AnalyticsService.csproj" Id="e6080bb8-b788-4f32-92f0-435a5341ab08" />
-  <Project Path="../AuthenticationService/AuthenticationService.csproj" Id="a4199a08-d17c-4bd2-9413-5721f331a96f" />
-</Solution>
+<Solution />
