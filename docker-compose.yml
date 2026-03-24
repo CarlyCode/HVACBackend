@@ -1,0 +1,13 @@
+services:
+  analyticsservice:
+    image: ${DOCKER_REGISTRY-}analyticsservice
+    build:
+      context: .
+      dockerfile: AnalyticsService/Dockerfile
+
+  authenticationservice:
+    image: ${DOCKER_REGISTRY-}authenticationservice
+    build:
+      context: .
+      dockerfile: AuthenticationService/Dockerfile
+
